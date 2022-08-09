@@ -2,6 +2,7 @@
 import { getCars } from './fetch-utils.js';
 import { renderCar } from './render-utils.js';
 
+
 const carListContainer = document.getElementById('car-list');
 // let state
 async function loadCars() {
